@@ -37,26 +37,26 @@ A *Java-based Library Management System* using *JDBC* and *MySQL*. This console-
 
 1. Create a MySQL database named library_db (or as preferred).
 
-**CREATE DATABASE library_db;
-  USE library_db;**
+   **CREATE DATABASE library_db;
+     USE library_db;**
    
 2. Use the following table structure:
 
-**sql
-CREATE TABLE Books (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  title VARCHAR(255) NOT NULL,
-  author VARCHAR(255) NOT NULL,
-  available INT NOT NULL
-);**
+   **sql
+     CREATE TABLE Books (
+     id INT AUTO_INCREMENT PRIMARY KEY,
+     title VARCHAR(255) NOT NULL,
+     author VARCHAR(255) NOT NULL,
+     available INT NOT NULL
+     );**
 
 
 3. Update the DatabaseConnection.java file with your MySQL username and password.
 In DatabaseConnection.java, update your DB username and password:
 
-**String url = "jdbc:mysql://localhost:3306/library_db";
-String username = "your_username";
-String password = "your_password";**
+   **String url = "jdbc:mysql://localhost:3306/library_db";
+     String username = "your_username";
+     String password = "your_password";**
 
 
 ## ▶️ How to Run
@@ -64,7 +64,6 @@ String password = "your_password";**
 1. Clone the repository.
 2. Set up the database as described above.
 3. Compile and run LibraryApp.java from your IDE or command line.
-4. 
 
 ## 📄 License
 
