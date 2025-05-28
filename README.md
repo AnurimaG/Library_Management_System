@@ -40,7 +40,7 @@ A *Java-based Library Management System* using *JDBC* and *MySQL*. This console-
 **CREATE DATABASE library_db;
   USE library_db;**
    
-3. Use the following table structure:
+2. Use the following table structure:
 
 **sql
 CREATE TABLE Books (
